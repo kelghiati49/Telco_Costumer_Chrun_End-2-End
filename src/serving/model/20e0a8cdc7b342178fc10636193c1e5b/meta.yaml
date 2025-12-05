@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/LENOVO/OneDrive/Bureau/Projects/Chrun prediction/mlruns/900327966784936779/20e0a8cdc7b342178fc10636193c1e5b/artifacts
+end_time: 1764970071019
+entry_point_name: ''
+experiment_id: '900327966784936779'
+lifecycle_stage: active
+run_id: 20e0a8cdc7b342178fc10636193c1e5b
+run_name: dashing-mouse-952
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764970060429
+status: 3
+tags: []
+user_id: LENOVO

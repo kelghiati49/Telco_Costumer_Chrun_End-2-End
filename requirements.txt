@@ -1,0 +1,17 @@
+optuna
+pandas
+seaborn
+statsmodels
+xgboost 
+scikit-learn
+mlflow
+fastapi
+uvicorn
+pydantic
+python-dotenv
+joblib
+great-expectations
+pytest
+posthog
+numpy
+lightgbm
