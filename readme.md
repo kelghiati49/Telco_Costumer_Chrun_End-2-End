@@ -3,10 +3,10 @@
 Build and ship a full machine-learning solution for predicting customer churn in a telecom setting—from data prep and modeling to an API + web UI deployed on AWS.
 
 #### Problem solved & benefits
-Faster decisions: Predicts which customers are likely to churn so teams can act before they leave.
-Operationalized ML: Model is accessible via a REST API and a simple UI; anyone can test it without notebooks.
-Repeatable delivery: CI/CD + containers mean every change can be rebuilt, tested, and redeployed in a consistent way.
-Traceable experiments: MLflow tracks runs, metrics, and artifacts for reproducibility and auditing.
+* Faster decisions: Predicts which customers are likely to churn so teams can act before they leave.
+* Operationalized ML: Model is accessible via a REST API and a simple UI; anyone can test it without notebooks.
+* Repeatable delivery: CI/CD + containers mean every change can be rebuilt, tested, and redeployed in a consistent way.
+* Traceable experiments: MLflow tracks runs, metrics, and artifacts for reproducibility and auditing.
 #### What I built
 Data & Modeling: Feature engineering + XGBoost classifier; experiments logged to MLflow.
 Model tracking: Runs, metrics, and the serialized model logged under a named MLflow experiment.
