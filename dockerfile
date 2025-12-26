@@ -8,8 +8,7 @@ WORKDIR /app
 COPY requirements.txt .
 
 # 4. Install Python dependencies (add curl if you use MLflow local tracking URI)
-RUN pip install -- upgrade pip \
-    && pip install -r requirements.txt \
+RUN pip install -r requirements.txt \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # 5. Copy the entire project into the image
@@ -20,7 +19,7 @@ COPY . .
 COPY src/serving/model /app/src/serving/model
 
 # Copy MLflow run (artifacts + metadata) to the flat /app/model convenience path
-COPY src/serving/model/20e0a8cdc7b342178fc10636193c1e5b/artifacts/model /app/model
+COPY src/serving/model/20e0a8cdc7b342178fc10636193c1e5b/params/model /app/model
 COPY src/serving/model/20e0a8cdc7b342178fc10636193c1e5b/artifacts/feature_columns.txt /app/model
 COPY src/serving/model/20e0a8cdc7b342178fc10636193c1e5b/artifacts/preprocessing.pkl /app/model
 
