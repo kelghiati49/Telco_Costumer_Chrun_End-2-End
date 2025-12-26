@@ -1,6 +1,6 @@
 ### Telco Churn – End-to-End ML Project
 #### Purpose
-Build and ship a full machine-learning solution for predicting customer churn in a telecom setting—from data prep and modeling to an API + web UI deployed on AWS.
+Build and ship a full machine-learning solution for predicting customer churn in a telecom setting—from data prep and modeling to an API.
 
 #### Problem solved & benefits
 * Faster decisions: Predicts which customers are likely to churn so teams can act before they leave.
